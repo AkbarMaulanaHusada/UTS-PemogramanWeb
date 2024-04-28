@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #eee;
+}
+.cv {
+    width: 580px;
+    height: 100vh;
+    margin: 0px auto;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+
+}
+/* KIRI */
+.kiri {
+    width: 280px;
+    padding: 15px;
+}
+.kiri .nama {
+    margin-bottom: 20px;
+    background-color: #8a9190;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+    margin-left: -15px;
+}
+.kiri .sosmed i {
+    margin-right: 10px;
+}
+.kiri .sosmed p {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.kiri h2 i {
+    margin-right: 10px;
+}
+.kiri h2 {
+    margin-top: 10px;
+    border-bottom: 2px solid #000;
+}
+.kiri .sekolah ul{
+    margin-left: 18px;
+    margin-top: 8px;
+    list-style: square;
+}
+.kiri .pengalaman ul{
+    margin-left: 18px;
+    margin-top: 8px;
+}
+
+
+/* KANAN */
+.kanan {
+    padding: 20px;
+    width: 320px;
+}
+.kanan .gambar {
+    margin: 0px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    overflow: hidden;
+    background-color: #8a9190;
+}
+.kanan .gambar img {
+    width: 75%;
+}
+.kanan h2 i {
+    margin-right: 10px;
+}
+.kanan h2 {
+    margin-top: 10px;
+    border-bottom: 2px solid #000;
+}
+.kanan .profil table{
+    margin-top: 5px;
+}
+.profil table tr td:nth-child(1) {
+  width: 100px;
+}
+
+.kanan .keahlian .list-skill {
+    margin-top: 10px;
+}
+.kanan .keahlian .list-skill .progres {
+    width: 100%;
+    height: 10px;
+    background-color: #b3b1b1ad;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.kanan .keahlian .list-skill .progres-bar {
+    height: 10px;
+    background-color: #8a9190;
+    border-radius: 5px;
+}
+
+.kanan .hobi .list-hobi i{
+    padding: 15px;
+    font-size: 30px;
+
+}
+
